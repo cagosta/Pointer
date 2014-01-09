@@ -85,7 +85,7 @@ requirejs.config( {
     paths: {
         Pointer: '.',
         almond: 'bower_components/almond/almond',
-        Seed: 'bower_components/SeedHq/app',
+        Seed: 'bower_components/Seed/app',
         chai: 'bower_components/chai/chai',
         engineDetector: 'bower_components/engineDetector/app',
         'chai-as-promised': 'bower_components/chai-as-promised/lib/chai-as-promised',
