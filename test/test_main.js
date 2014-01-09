@@ -14,7 +14,7 @@ requirejs.config( {
     paths: {
         Pointer: '.',
         test: '../test',
-        Seed: 'bower_components/SeedHq/app',
+        Seed: 'bower_components/Seed/app',
         engineDetector: 'bower_components/engineDetector/app',
         almond: 'bower_components/almond/almond',
         chai: 'bower_components/chai/chai',
