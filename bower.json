@@ -12,10 +12,10 @@
   "dependencies": {
     "requirejs": "~2.1.9",
     "requirejs-plugins": "~1.0.2",
-    "SeedHq": "~0.0.10",
-    "Array.nocomplex": "~0.0.19",
-    "requestAnimationFrame": "~0.0.12",
-    "engineDetector": "~0.0.23"
+    "Array.nocomplex": "~0.0.x",
+    "requestAnimationFrame": "~0.0.x",
+    "engineDetector": "~0.0.x",
+    "Seed": "~0.0.x"
   },
   "devDependencies": {
     "sinonjs": "~1.7.3",
