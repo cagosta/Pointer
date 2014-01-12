@@ -8,7 +8,7 @@ module.exports = function( grunt ) {
         },
 
         test_page: {
-            path: 'http://localhost:5000/test'
+            path: 'http://localhost:<%= config.server.port %>/test'
         },
 
         host: {

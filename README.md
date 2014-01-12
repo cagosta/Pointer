@@ -8,6 +8,9 @@ A simple wrapper around mouse.clientX, with easing.
 
 
 
+## Demo ##
+See [cagosta.github.io/Pointer](http://cagosta.github.io/Pointer) 
+
 ## Install ##
 
 Pointer is coded as [AMD module](http://requirejs.org/docs/whyamd.html) but can be installed with npm, bower or old-fashioned src=".min.js".
