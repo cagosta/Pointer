@@ -14,7 +14,6 @@
     "requirejs-plugins": "~1.0.2",
     "Array.nocomplex": "~0.0.x",
     "requestAnimationFrame": "~0.0.x",
-    "engineDetector": "~0.0.x",
     "Seed": "~0.0.x"
   },
   "devDependencies": {

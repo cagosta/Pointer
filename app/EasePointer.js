@@ -24,7 +24,6 @@ define( [
                 this.direction = this.position.minus( this.lastPosition )
                 this.fire( 'move', this.position )
             }
-            // setTimeout( this._toTarget, 100 )
             requestAnimationFrame( this._toTarget.bind( this ) )
         },
 
