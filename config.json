@@ -5,7 +5,7 @@
     "snake": "pointer",
     "slug": "pointer"
   },
-  "private": true,
+  "private": false,
   "server": {
     "port": 5000
   },

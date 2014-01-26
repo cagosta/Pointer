@@ -4,8 +4,41 @@
 
 ## Introduction ##
 
-A simple wrapper around mouse.clientX, with easing.
+A simple wrapper around mouse.clientX working on touch device, with easing.
 
+
+## Usage ##
+
+```js
+require(['Pointer/Pointer'], function( Pointer ){
+    
+    var pointer = new Pointer
+
+    pointer.getPosition() // return [ mouse.clienX, mouse.clientY ] in touch device also
+
+    pointer.on('move', function( ){
+        // call on mousemove / touchmove
+    })
+
+})
+
+require(['Pointer/EasePointer', function( EasePointer){
+    
+    var pointer = new Pointer({
+        easeSpeed: 0.2 // default 0.1
+    })
+
+    pointer.on('move', function( ){
+        var position = pointer.getPosition()
+
+        // this will be called much more time than classic touch events
+        // position will not reflect the real position of the mouse / finger but always tend to it with easing ( exponential )
+
+    })
+
+}])
+
+```
 
 
 ## Demo ##
@@ -13,18 +46,8 @@ See [cagosta.github.io/Pointer](http://cagosta.github.io/Pointer)
 
 ## Install ##
 
-Pointer is coded as [AMD module](http://requirejs.org/docs/whyamd.html) but can be installed with npm, bower or old-fashioned src=".min.js".
+Pointer is coded as [AMD module](http://requirejs.org/docs/whyamd.html) but can be installed with bower or old-fashioned src=".min.js".
 
-#### With npm: ####
-
-```
-npm install pointer
-```
-
-and use it with nodejs: 
-```
-var Pointer = require('pointer')
-```
 
 #### With bower: ####
 
